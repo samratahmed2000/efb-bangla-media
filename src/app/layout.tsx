@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Noto_Sans_Bengali } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
+import { Analytics } from "@vercel/analytics/next";
 
 const geistSans = Noto_Sans_Bengali({
   variable: "--font-noto_sans_bengali",
@@ -21,6 +22,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       >
         <Navbar />
         <main>{children}</main>
+        <Analytics />
       </body>
     </html>
   );
