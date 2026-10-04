@@ -3,8 +3,6 @@ import Link from "next/link";
 interface Navs {
   slug: string;
   title: string;
-  topicId: string | null;
-  url: string;
   scrapable: boolean;
 }
 

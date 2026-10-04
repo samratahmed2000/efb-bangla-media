@@ -11,8 +11,6 @@ const Marquee = async () => {
   const data = await res.json();
   const headlineNews: HeadlineNews[] = data.data;
 
-  console.log(headlineNews);
-
   return (
     <div className="text-white bg-pink-400">
       <div className="flex items-center">

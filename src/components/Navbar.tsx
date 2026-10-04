@@ -19,16 +19,13 @@ const Navbar = () => {
         </div>
 
         <div className="flex flex-col lg:flex-row items-center gap-3 text-sm">
-          <Link href="/sign-in">
-            <button className="btn btn-soft btn-secondary text-black hover:text-white">
-              সাইন ইন
-            </button>
-          </Link>
-          <Link href="/sign-up">
-            <button className="btn btn-secondary hover:bg-pink-200/25 hover:text-black hover:border-none">
-              সাইন আপ
-            </button>
-          </Link>
+          <button className="btn btn-soft btn-secondary text-black hover:text-white">
+            সাইন ইন
+          </button>
+
+          <button className="btn btn-secondary hover:bg-pink-200/25 hover:text-black hover:border-none">
+            সাইন আপ
+          </button>
         </div>
       </div>
 
